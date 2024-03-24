@@ -1,17 +1,14 @@
-// Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
 import {getFirestore} from "firebase/firestore"
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
 
-// Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
-  authDomain: "realtor-clone-react.firebaseapp.com",
-  projectId: "realtor-clone-react",
-  storageBucket: "realtor-clone-react.appspot.com",
-  messagingSenderId: "274012290784",
-  appId: "1:274012290784:web:6613bae03bba4331989a85"
+  apiKey: "AIzaSyBuGBFwisvnVHsnEwQGMjgDcB1vMt9X-_k",
+  authDomain: "home-real-state-project.firebaseapp.com",
+  projectId: "home-real-state-project",
+  storageBucket: "home-real-state-project.appspot.com",
+  messagingSenderId: "841954660907",
+  appId: "1:841954660907:web:62bf575b34d15a0278d06e",
+  measurementId: "G-EL55G7DYFW"
 };
 
 // Initialize Firebase
